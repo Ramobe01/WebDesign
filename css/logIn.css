@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+#cajaIzquierda{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    padding: 3% 0 0 5%;
+
+    /* ESTILOS */
+    border-right: 1px solid #D8DBE2;
+    background-image: url(../Img/PurpleImg.png);
+    background-size: cover;
+    background-position-x: 20%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    width: 542px;
+    height: 200px;
+
+    color: #FFFFFF;
+    font-size: 80px;    
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+}
+
+#cajaDerecha{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    text-align: center;
+    background-color: #171D1C;
+}
+
+h2{
+    width: 477px;
+    height: 98px;
+    margin: 100px 0px 80px 105px;
+
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #FFFFFF;
+}
+
+form{
+    width: 584px;
+    height: 643px;
+    margin: 0 60px 153px 60px;
+    box-sizing: border-box;
+}
+
+label{
+    margin: 0px 365px 2px 68px;
+    width: 368px;
+    height: 40px;
+    font-size: 18px;
+    color: #D8DBE2;
+    ;
+}
+
+#labelPassword{
+    margin: 0px 345px 2px 72px;
+}
+
+#labelRepeatPassword{
+    margin: 0px 283px 2px 72px;
+}
+
+#labelEmail{
+    margin: 0px 380px 2px 72px;
+}
+
+input{
+    margin: 0px 112.69px 2px 103px;
+    width: 340px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 4.5px;
+    border: 1.15096px solid #F1F1F1;
+    padding: 18px;
+    background: #313628;
+
+    color: #F1F1F1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+button{
+    margin: 3px 246px 0 236px ;
+    width: 115px;
+    height: 50px;
+    border: 4px solid #313628;
+    background-color: #0892A5;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 8px;
+
+    color: #F0FDF4;
+    font-weight: bold;
+    font-size: 18px;
+}
